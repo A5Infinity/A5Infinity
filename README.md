@@ -1,29 +1,33 @@
 # A5Infinity
 
-## Recherche et documentation blockchain en français
+## Recherche blockchain et documentation technique francophone
 
-J’étudie des protocoles open source pour rendre leur architecture, leurs mécanismes et leurs limites plus accessibles aux développeurs et aux lecteurs francophones.
+J’analyse le code de protocoles open source pour rendre leurs architectures, invariants et limites accessibles aux développeurs et lecteurs francophones. Mon travail se concentre sur les preuves à divulgation nulle, la confidentialité programmable et les infrastructures EVM.
 
-### Domaines de travail
+### Domaines
 
-- Zero-knowledge proofs, zkVM et zk-rollups
-- DeFi et conception des protocoles
-- Interopérabilité et messagerie inter-chaînes
-- Sécurité des smart contracts et bibliothèques Solidity
+- ZK-rollups, zkVM, STARK et SNARK
+- FHE et applications EVM confidentielles
+- Base L2 et composants de l’OP Stack
+- Hyperliquid, HyperEVM et intégrations de marché
+- Interopérabilité, DeFi et sécurité Solidity
 
-### Travaux sélectionnés
+### Travaux récents
 
-- [Scroll zkVM Prover](https://github.com/A5Infinity/zkvm-prover) — parcours en 10 chapitres sur les chunks, batches, bundles, la récursion STARK et la vérification SNARK sur EVM.
-- [Challenge Scroll](https://github.com/A5Infinity/Challenge-Scroll) — expérimentation Solidity autour de l’écosystème Scroll.
-- [Hyperlane](https://github.com/A5Infinity/hyperlane-monorepo) — documentation française de l’architecture d’interopérabilité.
-- [Wormhole](https://github.com/A5Infinity/wormhole) — étude française de la messagerie inter-chaînes.
-- [Balancer V3](https://github.com/A5Infinity/balancer-v3-monorepo) — parcours consacré aux mécanismes, à l’architecture et à la sécurité.
-- [Solady](https://github.com/A5Infinity/solady) — lecture guidée de primitives Solidity optimisées.
+- [Miden VM](https://github.com/A5Infinity/miden-vm) — exécution, traces, contraintes AIR, preuve STARK, vérification et précompiles.
+- [Halo 2](https://github.com/A5Infinity/halo2) — circuits, contraintes, lookups, engagements et transcript pour les SNARK.
+- [CoFHE SDK](https://github.com/A5Infinity/cofhesdk) — cycle des données chiffrées, permissions, React et mocks FHE.
+- [Hyperliquid SDK](https://github.com/A5Infinity/hyperliquid) — transports, signatures, idempotence, WebSocket et points d’intégration HyperEVM.
+- [Scroll zkVM Prover](https://github.com/A5Infinity/zkvm-prover) — chunks, batches, bundles, récursion STARK et vérification SNARK sur EVM.
+
+### Base L2
+
+La collection Base couvre le [nœud et ses composants](https://github.com/A5Infinity/base), les [précompiles Base](https://github.com/A5Infinity/base-std), le [bridge](https://github.com/A5Infinity/bridge), le [validateur Nitro](https://github.com/A5Infinity/nitro-validator), [Base Anvil](https://github.com/A5Infinity/base-anvil), les [benchmarks](https://github.com/A5Infinity/benchmark), la [documentation](https://github.com/A5Infinity/docs) et les [démos](https://github.com/A5Infinity/demos).
 
 ### Méthode
 
-Chaque parcours part du code source du projet. Les chapitres sont courts, reliés entre eux et publiés dans `docs/fr/`. Ils expliquent ce que le code est conçu pour faire sans présenter comme vérifiés des tests qui n’ont pas été exécutés.
+Chaque parcours part du code source. Les chapitres courts de `docs/fr/` relient un mécanisme à ses composants, explicitent les hypothèses de sécurité et distinguent systématiquement lecture documentaire, tests et audit.
 
 ### Collaboration
 
-Je souhaite contribuer à des projets ZK, DeFi et d’infrastructure blockchain lorsque je peux apporter une documentation claire, une analyse reproductible ou une amélioration ciblée.
+Ouvert aux contributions documentaires, analyses reproductibles et améliorations ciblées sur les écosystèmes ZK, FHE, Base, Hyperliquid et EVM.
