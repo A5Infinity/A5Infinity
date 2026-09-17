@@ -1,3 +1,7 @@
+## Parcours français
+
+Ce dépôt comprend un parcours documentaire en français organisé en 69 chapitres courts dans [`docs/fr/`](./docs/fr/). Il présente les mécanismes ZK, FHE, Base, HyperEVM et les limites relevées dans les sources publiques, sans installation, compilation ni exécution de tests.
+
 # A5Infinity
 
 ## Recherche blockchain et documentation technique francophone
